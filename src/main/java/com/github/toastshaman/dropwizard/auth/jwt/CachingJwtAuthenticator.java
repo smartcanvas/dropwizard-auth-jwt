@@ -8,7 +8,7 @@ import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheBuilderSpec;
 import com.google.common.cache.CacheStats;
 import io.dropwizard.auth.AuthenticationException;
-import io.dropwizard.auth.Authenticator;
+import io.dropwizard.java8.auth.Authenticator;
 import org.jose4j.jwt.consumer.JwtContext;
 
 import java.security.Principal;

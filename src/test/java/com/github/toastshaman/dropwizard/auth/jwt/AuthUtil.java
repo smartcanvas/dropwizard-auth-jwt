@@ -1,9 +1,9 @@
 package com.github.toastshaman.dropwizard.auth.jwt;
 
 import io.dropwizard.auth.AuthenticationException;
-import io.dropwizard.auth.Authenticator;
 import io.dropwizard.auth.Authorizer;
 import io.dropwizard.auth.PrincipalImpl;
+import io.dropwizard.java8.auth.Authenticator;
 import org.jose4j.jwt.MalformedClaimException;
 import org.jose4j.jwt.consumer.JwtContext;
 

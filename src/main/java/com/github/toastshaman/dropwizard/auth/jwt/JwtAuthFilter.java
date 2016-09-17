@@ -1,8 +1,8 @@
 package com.github.toastshaman.dropwizard.auth.jwt;
 
-import io.dropwizard.auth.AuthFilter;
+
 import io.dropwizard.auth.AuthenticationException;
-import io.dropwizard.auth.Authenticator;
+import io.dropwizard.java8.auth.AuthFilter;
 import org.jose4j.jwt.consumer.InvalidJwtException;
 import org.jose4j.jwt.consumer.JwtConsumer;
 import org.jose4j.jwt.consumer.JwtContext;
